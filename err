@@ -1,4 +1,4 @@
-, line 227
-    return FileResult(path=file_path, changed=False, reason=f"Write/move failed: {e}"
-                     ^
-SyntaxError: '(' was never closed
+14:40:06.326 | INFO    | Flow run 'attractive-coua' - Finished in state Failed('Flow run encountered an exception: JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)')
+Traceback (most recent call last):
+  File "C:\Users\nbowen\python\prefect_run_client_reports\oracle_client_report_flow.py", line 744, in <module>
+    result = run_client_reports(
