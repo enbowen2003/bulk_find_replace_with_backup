@@ -1,0 +1,4 @@
+, line 227
+    return FileResult(path=file_path, changed=False, reason=f"Write/move failed: {e}"
+                     ^
+SyntaxError: '(' was never closed
